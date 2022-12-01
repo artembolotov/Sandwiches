@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+            HStack {
+                Image(systemName: "photo")
+                VStack(alignment: .leading) {
+                    Text("My sandwich")
+                    Text("3 ingredients")
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                }
+            }
         }
-        .padding()
     }
 }
 
