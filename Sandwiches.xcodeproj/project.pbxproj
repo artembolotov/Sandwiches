@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB14564E2938E7D300BEEDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB14564C2938E7D300BEEDC3 /* Assets.xcassets */; };
 		AB14564F2938E7D300BEEDC3 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB14564D2938E7D300BEEDC3 /* Sandwich.swift */; };
+		AB1456512938E86A00BEEDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1456502938E86A00BEEDC3 /* Assets.xcassets */; };
 		AB50FD0D2938D8E60089DDF6 /* SandwichesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50FD0C2938D8E60089DDF6 /* SandwichesApp.swift */; };
 		AB50FD0F2938D8E60089DDF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50FD0E2938D8E60089DDF6 /* ContentView.swift */; };
 		AB50FD152938D8E80089DDF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB50FD142938D8E80089DDF6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB14564C2938E7D300BEEDC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Downloads/Sandwichs-iOS14-WWDC-Tutorial-main/Shared/Assets.xcassets"; sourceTree = "<group>"; };
 		AB14564D2938E7D300BEEDC3 /* Sandwich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		AB1456502938E86A00BEEDC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB50FD092938D8E60089DDF6 /* Sandwiches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandwiches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB50FD0C2938D8E60089DDF6 /* SandwichesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichesApp.swift; sourceTree = "<group>"; };
 		AB50FD0E2938D8E60089DDF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			children = (
 				AB50FD0C2938D8E60089DDF6 /* SandwichesApp.swift */,
 				AB50FD0E2938D8E60089DDF6 /* ContentView.swift */,
-				AB14564C2938E7D300BEEDC3 /* Assets.xcassets */,
+				AB1456502938E86A00BEEDC3 /* Assets.xcassets */,
 				AB14564D2938E7D300BEEDC3 /* Sandwich.swift */,
 				AB50FD122938D8E80089DDF6 /* Sandwiches.entitlements */,
 				AB50FD132938D8E80089DDF6 /* Preview Content */,
@@ -131,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB50FD152938D8E80089DDF6 /* Preview Assets.xcassets in Resources */,
-				AB14564E2938E7D300BEEDC3 /* Assets.xcassets in Resources */,
+				AB1456512938E86A00BEEDC3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
